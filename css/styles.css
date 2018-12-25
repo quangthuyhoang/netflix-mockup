@@ -1,0 +1,121 @@
+body {
+  background-color: #010101;
+  color: white;
+  padding: 0;
+}
+
+.main-background {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 5em;
+}
+
+.main-logo {
+  float: right;
+  min-height: 100%;
+  width: 10em;
+  background-color: #ee3424;
+  margin-right: 10em;
+}
+
+.main-showpreview {
+  height: 20em;
+  width: 100%;
+  /* opacity: 0; */
+}
+
+.main-showpreview .preview-card-info {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.red {
+  color: red;
+  font: bold;
+}
+
+.PR {
+  background: grey;
+  font: bold;
+}
+
+.preview {
+  height: 4em;
+  width: 75%;
+  padding: 5px 2px;
+}
+
+.subDescription {
+  font-style: italic 
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.showImage {
+  height: 200px;
+  width: 250px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.showList {
+  overflow: hidden;
+}
+
+.showList li{
+  display: inline-block;
+  margin: 3px;
+}
+
+.activeSelection img{
+  border: 3px solid white;
+}
+
+.category-list-wrapper {
+  opacity: .50;
+}
+
+.categorySelection {
+  opacity: 1 !important;
+}
+
+.preview {
+  width: 50%;
+}
+
+.award {
+  margin: 0px;
+  display: inline-block;
+}
+
+.award-logo {
+  /* height: 200px; */
+  width: 15%;
+  background-color: black;
+}
+
+.subDescription {
+  position: relative;
+  float: right;
+  text-align: center;
+  max-width: 75%;
+}
+
+.mainPreviewSelection {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
